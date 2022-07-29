@@ -133,6 +133,7 @@ public class ResourceCentre {
 		for (int i = 0; i < camcorderList.size(); i++) {
 
 			String assetTag = camcorderList.get(i).getAssetTag();
+			// mquek
 			output += String.format("%-10s %-30s %-10s %-10s %-20d\n", assetTag,
 					camcorderList.get(i).getDescription(), 
 					ResourceCentre.showAvailability(camcorderList.get(i).getIsAvailable()),
